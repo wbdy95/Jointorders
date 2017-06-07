@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*背景图像*/
+.number-bg{ position: absolute; margin: 0; background-image:url(../images/number/renshubj.jpg); background-repeat:no-repeat; background-position:center; background-size: cover; width:100%; height:100%; }
+
+/*food图片*/
+.wrap{width: 100%; position: absolute; top: 50%; left: 10%;  transform:translate(-10%,-50%);}
+.number-img{width:100%; text-align:center;}
+
+/*显示点餐人数*/
+.number-info{ overflow: hidden; width:90%; margin:auto; margin-top: 20px;  padding:0 10px; font-size: 16px;}
+.number{width:90%; margin:auto;font-size:14px; line-height:45px;}
+.number .digital{width:100%; margin:auto; padding:0px 10px; font-size:32px;}
+
+/*键盘*/
+.keyboard{width:100%; margin:auto; padding:0 10px;}
+.keyboard .key{width:33.33%; float:left; margin-top:5%; padding: 0 10px; font-size:18px; line-height:30px; color:#888; text-align:center;}
+.keyboard .key a{color:#888; }
+.keyboard .key span{display:inline-block; padding: 5px 0;  border: 1px solid #b1b1b1;  border-radius: 5px; width:100%;}
+.keyboard .key span:hover{ color:#f53333; border:1px solid #f53333;}
+.keyboard .key .active span{border:1px solid #f53333;}
+.keyboard .delet{width:66.66%;}
+
+/*开始点餐按钮*/
+.btn{ padding:0 20px; margin:auto; }
+.btn .btn-bg{width: 100%; margin-top:20px; border-radius: 5px; background-image: url(../images/index/btn-bg.jpg); padding:10px 0px; font-size:18px; color: #fff;text-align: center;}

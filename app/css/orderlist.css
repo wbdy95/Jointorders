@@ -1,0 +1,15 @@
+.orderstatus-detail{margin:10px 10px; overflow: hidden; padding:0px 20px; background-color: #f1f1f1;}
+.orderstatus-detail .finish{display: inline-block; width:80px; height:30px; border-radius:0px 0px 5px 5px; background-color: #3fca67; color: #fff; line-height: 30px; text-align: center;}
+.orderstatus-detail .storename{ display: block; width:150px; font-size: 12px; color: #888; line-height: 20px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.orderstatus-detail .data{ display: block; font-size: 12px; color: #888; line-height: 20px; text-align: right;}
+.orderstatus-detail .order-number{width: 100%; overflow: hidden; border-bottom: 1px solid #dedede; font-size: 14px; line-height: 30px;}
+.orderstatus-detail .amount{font-size: 14px; color: #1a1a1a; line-height: 40px; }
+.orderstatus-detail .no-pay{display: inline-block; width:80px; height:30px; border-radius:0px 0px 5px 5px; background-color: #ffac3a; color: #fff; line-height: 30px; text-align: center;}
+.orderstatus-detail .invalid{display: inline-block; width:80px; height:30px; border-radius:0px 0px 5px 5px; background-color: #888; color: #fff; line-height: 30px; text-align: center;}
+.orderstatus-detail .cancel{display: inline-block; width:80px; height:30px; border-radius:0px 0px 5px 5px; background-color: #a6956a; color: #fff; line-height: 30px; text-align: center;}
+.masterless{display: flex; margin:0 10px;}
+.masterless .line{display: inline-block; flex: 1; margin-bottom:8px; border-bottom:1px solid #dedede; }
+.masterless .no-content{ padding: 0px 10px; font-size: 12px; color: #dedede; }
+.no-list{ position: fixed; padding:0 20px; top:50%; left: 50%; transform: translate(-50%,-50%);}
+.no-list .photo{display: block; width: 180px; height: 60px; top:50%; left: 50%; transform: translate(-50%,-50%); background-image: url(../images/orderform/nolist.png) center center no-repeat;}
+.no-list .describe{display: block; font-size:14px; color:#888; text-align: center;}

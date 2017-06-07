@@ -1,0 +1,19 @@
+
+/*头部*/
+.head{background-color: #f53333; padding: 12px 15px;}
+.head > span{font-size:14px; color: #fff;}
+
+/*content*/
+.tableware-fee{overflow: hidden; padding:15px 10px; font-size:14px; color:#1a1a1a;}
+.order-remark{ display: flex; overflow: hidden; padding:15px 10px; font-size:14px; color:#1a1a1a;}
+.order-remark .remark{ display: inline-block; width: 50px; font-size: 14px;}
+.order-remark .remark-input{ display: inline-block; flex:1; width: 100%;}
+.order-remark .input-text{display: inline-block; flex:1; width: 100%; border:1px; font-size: 14px;}
+.orderlist .list-explain{ overflow: hidden;}
+.orderlist .list-wrap:last-child{ border-bottom:none;  }
+.orderlist .list-wrap{margin:0 10px; overflow: hidden; border-bottom:1px solid #dedede;  padding: 10px 0px;}
+.orderlist .dish-name{ display: inline-block; width:150px; font-size: 14px; color:#1a1a1a; white-space: nowrap; overflow: hidden; text-overflow:  ellipsis;}
+.orderlist .dish-number{ display: inline-block; margin-left: 10px; font-size: 12px; color:#888;}
+.orderlist .dish-price{ display: inline-block; font-size: 14px; color:#1a1a1a;}
+.orderlist .dish-explain{overflow: hidden; font-size: 12px; color: #f53333;}
+.outside{height:50px;}

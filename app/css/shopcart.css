@@ -1,0 +1,16 @@
+.popup{position: absolute; top:0;height:100vh; width:100%; overflow:hidden; display:none;}
+.popup-mask{position: absolute; top:0; background-color: rgba(0, 0, 0, 0.6); height:100vh; width:100%; opacity: 0; transition:opacity .5s ease-in 0.3s;}
+.shopcart-wrap{/* position: absolute; bottom: 0;  */width: 100%; max-height: 350px;  -webkit-overflow-scrolling : touch;  }
+.shopcart{display: flex;  }
+.shopcart .redbar{width:2px; background-color: #f53333; height: 30px; }
+.shopcart .greybar{flex:1; display: inline-block; background-color: #f1f1f1; padding:5px 0px 0px 10px; font-size: 14px; color: #888; }
+.cartlist{width:100%; max-height: 300px; overflow-y: auto;}
+.cartlist-wrap{ margin:0px 20px; min-height: 40px; border-bottom:1px solid #dedede; padding:10px 0px; }
+.cartlist-wrap:last-child{border-bottom:none;}
+.cartlist-wrap .dishname{ display:inline;height: 30px;  width: 100px; font-size: 14px; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.cartlist-wrap .dishcost{ display:inline; height: 30px; margin-left:10px; font-size: 14px; color: #1a1a1a; }
+.cartlist-wrap .dishremove{ display: inline-block; padding:12px;  background-image: url(../images/index/jian.png); background-repeat: no-repeat;  background-size: 100%; }
+.cartlist-wrap .cartcopies{ display: inline-block; margin-top:4px; width: 25px; font-size:14px; color:#1a1a1a; line-height:26px;  text-align: center;}
+.cartlist-wrap .dishadd{display: inline-block; padding:12px;  background-image: url(../images/index/jia.png); background-repeat: no-repeat; background-size: 100%;}
+.cartlist-wrap .dishremark{font-size: 12px; color: #f53333;}
+.cartlist-wrap .dishsum{display: block; margin-top: -6px;}

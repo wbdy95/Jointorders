@@ -1,0 +1,21 @@
+
+.head{background-color: #f53333; padding: 12px 15px;}
+.head > span{font-size:14px; color: #fff;}
+.wait-order{padding: 12px 15px; text-align: left; line-height: 30px;}
+.wait-order .order-status{display: block;font-size: 18px; color: #f53333; text-align: center;}
+.wait-order .wait-message{display: block;font-size:12px; color:#888; line-height:15px; text-align: center;}
+
+/*content*/
+.orderform-content{padding-bottom: 50px; }
+.order-refresh{ display: inline-block; background-image: url(../images/orderform/refresh.png); width: 32px; height: 32px; background-size: 100%; right: 10px; margin-top: -7px;}
+.order-refresh.animation{transform: rotateZ(360deg); transition: all 1s ease-in-out 0s;}
+.column-totals{padding:12px 10px; font-size: 14px; color: #f53333;}
+.line-item{position: relative; padding:0px 10px;}
+.line-item .status-pic{position: absolute; top:50px; left:50%; transform: translate(-50%, -50%); }
+.line-item .order-list:last-child{border-bottom:none;border-top:1px solid #dedede;}
+.line-item .order-list{padding:10px 0px; border-bottom: 1px solid #dedede; font-size: 14px; color:#1a1a1a;}
+.line-item .dish-wrap{font-size: 12px;}
+.line-item .dish-wrap:last-child{border-top:1px solid #dedede;}
+.line-item .dish-wrap .dish-name{display:inline-block; margin-bottom: -3px; width: 100px; font-size: 12px; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.line-item .dish-wrap .dish-number{ display: inline-block; margin-left: 40px; padding: 6px 10px; font-size: 12px; color: #888;}
+.line-item .dish-wrap .dish-total{ display: inline-block; padding: 6px 0px; font-size: 12px; color: #1a1a1a;}

@@ -1,0 +1,21 @@
+
+/*头部*/
+.head{background-color: #f53333; padding: 12px 15px;}
+.head > span{font-size:14px; color: #fff;}
+
+/*content*/
+.number{padding:0px 10px;}
+.info{padding: 5px 15px;}
+.info > span{ font-size:14px; line-height: 35px;}
+.info .number-add{display:inline-block; margin-bottom: -5px; background-image: url(../images/number/jian.png); background-repeat: no-repeat; background-size: 100%;  width: 20px; height: 20px;}
+.info .number-sub{display:inline-block; margin-bottom: -5px; background-image: url(../images/number/jia.png);  background-size: 100%; width: 20px; height: 20px;}
+.info .number{border-bottom: 1px solid #dedede; text-align: center;}
+.info .fee{color:#f53333;}
+.list-info{padding: 0px 15px;}
+.list-info .contain{padding:10px 0px 10px;  border-bottom: 1px solid #dedede;}
+.list-info .contain:last-child{border-bottom:none;}
+.list-info .contain .number{width:30px; font-size: 12px; color: #1a1a1a; text-align: center;}
+.list-info .contain .title{font-size: 12px; color: #1a1a1a;}
+.list-info .contain .detail{font-size: 12px; color: #f53333;}
+.list-info .contain .number-add{display:inline-block; margin-bottom: -5px; background-image: url(../images/number/jian.png); background-repeat: no-repeat; background-size: 100%;  width: 20px; height: 20px;}
+.list-info .number-sub{display:inline-block; margin-bottom: -5px; background-image: url(../images/number/jia.png);  background-size: 100%; width: 20px; height: 20px;}

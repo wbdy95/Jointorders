@@ -1,0 +1,25 @@
+
+/*头部*/
+.head{background-color: #f53333; padding: 12px 15px;}
+.head > span{font-size:14px; color: #fff;}
+
+/*支付*/
+.pay-wrap{padding:0px 10px; overflow: hidden; font-size: 14px;}
+.pay-wrap .content-list:last-child{border-bottom:none;}
+.pay-wrap .content-list{border-bottom:1px solid #dedede; padding:10px 0px; overflow: hidden; font-size: 14px; }
+.pay-wrap .pay-card{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/vip.png); background-size:100%; width: 15px; height: 15px;}
+.pay-wrap .pay-ico{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/go.png); background-size:100%; width: 15px; height: 15px;}
+.pay-wrap .pay-go{color:#2090fe;}
+.pay-wrap .pay-weixin{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/weixin.png); background-size:100%; width: 15px; height: 15px;}
+.pay-wrap .pay-select{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/select.png); background-size:100%; width: 15px; height: 15px;}
+.pay-wrap .pay-cash{padding:10px 0px; font-size: 14px;}
+.pay-wrap .coupon-text{color:#f53333;}
+.pay-wrap .coupon-ico{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/go.png); background-size:100%; width: 15px; height: 15px;}
+.order-list:last-child{border-bottom:1px solid #dedede;}
+.order-list{ padding:8px 0px; font-size: 12px;}
+.pay-price{margin:0px 10px; overflow: hidden;font-size: 13px; color: #1a1a1a; line-height: 30px;}
+.pay-price > span{font-size:14px;color:#f53333;}
+.pay-bottom{border-bottom:1px solid #dedede;}
+.coupon{padding:10px 10px; overflow: hidden; font-size: 14px;}
+.coupon .text{color:#f53333;}
+.coupon .ico{display:inline-block; margin-bottom: -2px; background-image: url(../images/pay/go.png); background-size:100%; width: 15px; height: 15px;}
